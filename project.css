@@ -73,3 +73,72 @@ button {
 #plus button:hover{
     background-color: rgb(82, 138, 82);
 }
+
+/* Tablet Layout: max-width 1024px */
+@media screen and (max-width: 1024px) {
+    #zero {
+        width: 250px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    button {
+        padding: 15px 40px;
+    }
+
+    button img {
+        width: 4rem;
+    }
+
+    #counterContainer {
+        gap: 1.5rem;
+    }
+}
+
+/* Mobile Layout: max-width 768px */
+@media screen and (max-width: 768px) {
+    #zero {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    button {
+        padding: 15px 30px;
+    }
+
+    button img {
+        width: 3rem;
+    }
+}
+
+/* Small Mobile Layout: max-width 500px */
+@media screen and (max-width: 500px) {
+    #zero {
+        width: 140px;
+        height: 140px;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    button {
+        padding: 10px 15px;
+        border-radius: 16px;
+    }
+
+    button img {
+        width: 2rem;
+    }
+
+    #counterContainer {
+        gap: 0.8rem;
+    }
+}
